@@ -24,3 +24,4 @@
 #### Todo
 
 * make public  
+* add a gif insted of an image
