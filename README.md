@@ -1,4 +1,4 @@
-# Bulk Youtube Downloading 
+## Bulk Youtube Downloading 
 
 <img src="home.png">
 
@@ -6,9 +6,6 @@
   
   * coming ..... 
 
-# Bulk Download
-
-<img src="">
 
   
 ## Technology
