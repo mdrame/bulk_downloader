@@ -14,7 +14,6 @@ app = Flask(__name__)
 
 
 
-mail = Mail(app) # mail instance / object 
 
 
 # home route 

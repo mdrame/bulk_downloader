@@ -1,13 +1,10 @@
-# Facebook Fetching 
+# Bulk Youtube Downloading 
 
-<img src="https://media.giphy.com/media/LOL2LepHrkUVp1gz4t/giphy.gif">
+<img src="home.png">
 
 ## Usage
   
-  * git clone https://github.com/mdrame/hacking_with_clone
-  * Change destination  email security  / Forwarding and POP/IMAP setting to enable IMAP 
-  * Now add  desire email for  sender and recipients user credential
-  * Run python3 app,py
+  * coming ..... 
   
 
 ## Technology
@@ -15,7 +12,7 @@
 * HTML
 * CSS
 * Flask
-
+* ...
 
 
 ### Disclaimer 
@@ -25,5 +22,4 @@
 
 #### Todo
 
-
-* Add more functionality
+* make public  
