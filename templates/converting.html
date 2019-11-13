@@ -16,7 +16,9 @@
             </div>
              <!-- small wrap next to big wrap  -->
             <div>
-                    <h1> Youtube API Detail </h1>
+                {% for i in range(0,( url | length)) %}
+                    <h3> {{  url[i] }} </h3> 
+                {% endfor %}
             </div>
         </div>
 

@@ -36,16 +36,14 @@ def converting_url():
 
     
     # this is usually right behind the url of API address
-    urls = { "urlone": urlone,
-             "urltow": urltwo,
-             "urlthree": urlthree,
-             "urlfour": urlfour,
-             "urlfive": urlfive}
+    # I don't like Dictionary
+    url = [ urlone, urltwo, urlthree, urlfour, urlfive ]
 
+    # write convetting code here
     
 
-    
-    return render_template('converting.html', urls=urls)
+
+    return render_template('converting.html',  url=url)
 
 
 
