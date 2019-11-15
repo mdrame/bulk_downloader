@@ -1,6 +1,7 @@
 from flask import Flask, render_template, redirect, request
 import requests
 import os 
+from pytube import YouTube
 
 
 # Created by Mohammed Draem 
@@ -19,7 +20,7 @@ app = Flask(__name__)
 # home route 
 @app.route('/')
 def index():
-    
+    # display only 
     return render_template('index.html') #home page
     
 
@@ -39,8 +40,14 @@ def converting_url():
     # I don't like Dictionary
     url = [ urlone, urltwo, urlthree, urlfour, urlfive ]
 
-    # write convetting code here
-    
+    # write downloading code here
+ 
+
+    ytd = YouTube('https://www.youtube.com/watch?v=SpQ0Xh7J4_4&list=PLKIjVmbmuiOFIFYo8zX5Pq3YGhPz00JOC&index=2').streams.first().download('/Users/mohammeddrame/Downloads') // where you want the downlad to go
+    if ytd:
+        print("VIDEO DOWNLOADED SUCCESSFULLY")
+    else:
+        print(' Let user know process fail ')
 
 
     return render_template('converting.html',  url=url)
