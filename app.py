@@ -43,7 +43,7 @@ def converting_url():
     # write downloading code here
  
     # creating a object making a call and saving it in a specific location
-    # ytd = YouTube(f'{urlone}').streams.first().download('/Users/mohammeddrame/Downloads')
+    ytd = YouTube(f'{urlone}').streams.first().download('/Users/mohammeddrame/Downloads')
    
 
 
@@ -62,3 +62,4 @@ if __name__ == "__main__":
 # Todo:
     # Error handle code
     # progress Hud
+    # Specific Directory location to download file to
