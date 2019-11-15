@@ -42,21 +42,12 @@ def converting_url():
 
     # write downloading code here
  
-
-    ytd = YouTube('https://www.youtube.com/watch?v=SpQ0Xh7J4_4&list=PLKIjVmbmuiOFIFYo8zX5Pq3YGhPz00JOC&index=2').streams.first().download('/Users/mohammeddrame/Downloads') // where you want the downlad to go
-    if ytd:
-        print("VIDEO DOWNLOADED SUCCESSFULLY")
-    else:
-        print(' Let user know process fail ')
+    # creating a object making a call and saving it in a specific location
+    # ytd = YouTube(f'{urlone}').streams.first().download('/Users/mohammeddrame/Downloads')
+   
 
 
     return render_template('converting.html',  url=url)
-
-
-
-@app.route('/downloading') 
-def downloading(): 
-    pass
 
 
 
@@ -67,3 +58,7 @@ def downloading():
 # main module page 
 if __name__ == "__main__":
     app.run(debug=True)
+
+# Todo:
+    # Error handle code
+    # progress Hud

@@ -78,6 +78,11 @@ h3 img{
 
  }
 
+ #DivdownloadButton #button a {
+     text-decoration: none;
+     color: white;
+ }
+
 
  h2 {
 
