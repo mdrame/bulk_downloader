@@ -15,11 +15,16 @@
                 <h1> Bulk Youtube Downloader </h1>
             </div>
              <!-- small wrap next to big wrap  -->
-            <div>
+            <div id="variableDIV">
                 {% for i in range(0,( url | length)) %}
                     <h3> {{  url[i] }} </h3> 
                 {% endfor %}
             </div>
+        </div>
+
+        <!-- div download button -->
+        <div id="DivdownloadButton">
+                <button type="submit" id="button"> Download </button>
         </div>
 
         <!-- nav  -->
