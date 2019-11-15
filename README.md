@@ -1,3 +1,5 @@
+### Product Completion: 70%
+
 ## Bulk Youtube Downloading 
 
 <img src="home.png">
@@ -7,13 +9,15 @@
   * coming ..... 
 
 
-  
 ## Technology
 
 * HTML
 * CSS
 * Flask
-* ...
+
+## Packages 
+
+* Find packages in requirements.txt
 
 
 ### Disclaimer 
@@ -25,3 +29,5 @@
 
 * make public  
 * add a gif insted of an image
+* Error handle code
+* Specific Directory location to download file to
