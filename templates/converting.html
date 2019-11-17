@@ -16,8 +16,16 @@
             </div>
              <!-- small wrap next to big wrap  -->
             <div id="variableDIV">
-                {% for i in range(0,( url | length)) %}
-                    <h3> {{  url[i] }} </h3> 
+                {% for i in range(0,( urls | length)) %}
+                <!-- testing 8...23 -->
+                <!-- <h3> {{ urls[i][8:23] }}</h3> -->
+                    <!-- if the 8...22 character is equal 'www.youtube.com' then execute code -->
+                    {%  if 'www.youtube.com' in urls[i] %} 
+                            <h3> {{ urls[i] }}  = > DOWNLOAD SUCESSFUL ✅ </h3>
+                    {%  else %}
+                        <h3> {{ urls[i] }}  = >  Not a youtube link pal ❌ </h3>
+                    {%  endif %} 
+                        
                 {% endfor %}
             </div>
         </div>

@@ -35,19 +35,23 @@ def converting_url():
     urlfour = request.form.get("urlfour")
     urlfive = request.form.get("urlfive")
 
-    
-    # this is usually right behind the url of API address
     # I don't like Dictionary
-    url = [ urlone, urltwo, urlthree, urlfour, urlfive ]
+        #adding all links to a list 
+    urls = [ urlone, urltwo, urlthree, urlfour, urlfive ]
+    
+    #making sure requst is a GET before app can do any thing 
+    if request.method == 'POST':
+        #looping over list of url to get all possible indexes
+        for i in range(0, len(urls)):
+            if 'www.youtube.com' in urls[i]:
+            # print(f"these are the {i}")
+            # creating a instance of pytube libary and  making a call. Also saving it in a specific location using os.path so app will downlaod stuff to a spacific locaion for ever body that uses it.
+                ytd = YouTube(f'{urls[i]}').streams.first().download('/Users/mohammeddrame/Downloads')
+        
+    else:
+        print(" Method is POST ")
 
-    # write downloading code here
- 
-    # creating a object making a call and saving it in a specific location
-    ytd = YouTube(f'{urlone}').streams.first().download('/Users/mohammeddrame/Downloads')
-   
-
-
-    return render_template('converting.html',  url=url)
+    return render_template('converting.html',  urls=urls)
 
 
 
