@@ -1,31 +1,36 @@
 ### Build Downloading reponsive app built in python3 that let users to download up to 5 content from youtube using URLS.
 
-<img src="home.png">
 
-## Usage
+ ### Home. 
+<img src="/readmeImage/home.png">
+
+
+### Usage.
+
+  * git clone git@github.com:mdrame/bulk_downloader.git / download zip filder.
+  * Check requirements.txt for needed packages. Done? Now open app.py in desire textEditor.
+  * Change desire download destination <img src="readmeImage/destination.png"/>.
+  * In the root directory run app using 'python3 app.py' and enjoy.
+  * youtube urls only.
   
-  * coming ..... 
+
+## Technology.
+
+  * HTML
+  * CSS
+  * Flask
+  * Python3
+  
+  
+### Open source challange:
+
+  * Add ProgressHub when user hit the Download button so they can see what's going on in the background on the app.
+  * User any webframework of your choice. javascrip, Jquery
+  
+
+### Disclaimer .
+
+  * Project is intended for research purposes only!.
 
 
-## Technology
 
-* HTML
-* CSS
-* Flask
-
-## Packages 
-
-* Find packages in requirements.txt
-
-
-### Disclaimer 
-
-* Project is intended for research purposes only!
-
-
-#### Todo
-
-* make public  
-* add a gif insted of an image
-* Error handle code
-* Specific Directory location to download file to
