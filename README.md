@@ -1,6 +1,4 @@
-###  Completion: 70%
-
-### Summery
+### Build Downloading reponsive app built in python3 that let users to download up to 5 content from youtube using URLS.
 
 <img src="home.png">
 
