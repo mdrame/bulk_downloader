@@ -1,0 +1,78 @@
+body {
+    background: rgb(15, 14, 14); 
+    text-align: center;
+    color: white
+}
+
+
+ h2 {
+
+    color: rgb(105, 101, 101);
+    font-size: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: black;
+    width: 8%;
+    margin: 2% 2% 0% 2%;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid rgb(68, 66, 66) ;
+ }
+
+
+ h2:hover {
+
+    color: white;
+    font-size: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: black;
+    width: 8%;
+    margin: 2% 2% 0% 2%;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid rgb(207, 203, 203) ;
+ }
+
+
+ h2 a{
+    text-decoration: none;
+    color: white;
+ }
+
+
+ .photodiv {
+     /* background: red; */
+     width: 30%;
+     height: auto;
+     margin: 5% auto
+ }
+
+
+ .photodiv img {
+    width: 40%;
+    height: auto;
+    border: 2px solid none;
+    border-radius: 100px;
+}
+
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: bold;
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style: italic;
+    color: yellow;
+}
+
+
+.aboutme {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+

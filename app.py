@@ -1,7 +1,8 @@
-from flask import Flask, render_template, redirect, request
+from flask import Flask, render_template, redirect, request, url_for
 import requests
 import os 
 from pytube import YouTube
+
 
 
 # Created by Mohammed Draem 
@@ -24,6 +25,7 @@ def index():
     return render_template('index.html') #home page
     
 
+# downlaoding music processing route
 @app.route('/converting', methods=['GET', 'POST'])
 def converting_url():
 
@@ -43,15 +45,37 @@ def converting_url():
     if request.method == 'POST':
         #looping over list of url to get all possible indexes
         for i in range(0, len(urls)):
+
             if 'www.youtube.com' in urls[i]:
             # print(f"these are the {i}")
             # creating a instance of pytube libary and  making a call. Also saving it in a specific location using os.path so app will downlaod stuff to a spacific locaion for ever body that uses it.
+                                                                        # save to destination
                 ytd = YouTube(f'{urls[i]}').streams.first().download('/Users/mohammeddrame/Downloads')
         
     else:
         print(" Method is POST ")
 
     return render_template('converting.html',  urls=urls)
+
+
+# about route 
+@app.route('/about')
+def about():
+    # display only 
+    return render_template('about.html') #home page
+    
+# Render contant to github page
+    
+
+# pravicy route 
+@app.route('/pp')
+def pp():
+    # display only 
+    return render_template('privacypolicy.html') #home page
+    
+
+
+
 
 
 

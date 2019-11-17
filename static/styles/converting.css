@@ -51,37 +51,21 @@ h3 img{
 }
 
 
+ .a {
 
-.inputDiv #DivdownloadButton {
+     text-decoration: none;
+     color: white;
+     background: red;
+     padding: 10px;
+     border: 2px solid black;
+     border-radius:10px;
+     font-size: 25px;
+    
 
-    /* width: 300px; height: 200px; background: yellow; */
-    display: block;
-    margin-left: 45%;
-    margin-right: 55%;
-    margin-top: 30px;
-     
-   
  }
  
 
- #DivdownloadButton #button {
 
-    font-size: 20px;
-    color: white;
-    background: crimson;
-    border: 2px solid rgb(37, 34, 34);
-    border-radius: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-
- }
-
- #DivdownloadButton #button a {
-     text-decoration: none;
-     color: white;
- }
 
 
  h2 {
@@ -95,11 +79,11 @@ h3 img{
     display: inline-block;
     padding: 10px;
     border: 1px solid rgb(68, 66, 66) ;
+    margin-top: 20px;
  }
 
 
  h2:hover {
-
     color: white;
     font-size: 2%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -108,5 +92,13 @@ h3 img{
     margin: 2% 2% 0% 2%;
     display: inline-block;
     padding: 10px;
-    border: 1px solid rgb(207, 203, 203) ;
+    border: 1px solid rgb(252, 235, 3) ;
+    margin-top: 20px;
+ }
+
+
+ h2 a{
+    text-decoration: none;
+    color: white;
+   
  }
