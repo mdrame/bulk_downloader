@@ -48,9 +48,10 @@ def converting_url():
 
             if 'www.youtube.com' in urls[i]:
             # print(f"these are the {i}")
-            # creating a instance of pytube libary and  making a call. Also saving it in a specific location using os.path so app will downlaod stuff to a spacific locaion for ever body that uses it.
+
                                                                         # save to destination
                 ytd = YouTube(f'{urls[i]}').streams.first().download('/Users/mohammeddrame/Downloads')
+                # downloading given url
         
     else:
         print(" Method is POST ")
