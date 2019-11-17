@@ -7,7 +7,7 @@
 
 ### Usage.
 
-  *' git clone git@github.com:mdrame/bulk_downloader.git' / download zip filder.
+  git clone git@github.com:mdrame/bulk_downloader.git / download zip filder.
   * Check requirements.txt for needed packages. Done? Now open app.py in desire textEditor.
   * Change desire download destination <img src="readmeImage/destination.png"/>.
   * In the root directory run app using 'python3 app.py' and enjoy.
