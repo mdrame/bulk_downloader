@@ -25,7 +25,7 @@
 ### Open source challange:
 
   * Add ProgressHub when user hit the Download button so they can see what's going on in the background on the app.
-  * User any webframework of your choice. javascrip, Jquery
+  * Use any webframework of your choice. javascrip, Jquery
   
 
 ### Disclaimer .
