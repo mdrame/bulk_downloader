@@ -13,6 +13,8 @@
   * In the root directory run app using ``` python3 app.py ``` and enjoy.
   * youtube urls only.
   
+  * Note: Make sure to deactivate env before running app.
+  
 
 ## Technology.
 
