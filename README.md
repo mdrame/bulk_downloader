@@ -12,11 +12,13 @@
 
 ### Usage.
 
-  * ``` git clone git@github.com:mdrame/bulk_downloader.git ``` / download zip filder.
+  * ``` git clone git@github.com:mdrame/bulk_downloader ``` / download zip filder.
   * Check requirements.txt for needed packages. Done? Now open app.py in desire textEditor.
   * Change desire download destination <img src="readmeImage/destination.png"/>.
   * In the root directory run app using ``` python3 app.py ``` and enjoy.
   * youtube urls only.
+  
+  * Note: Make sure to deactivate env before running app.
   
 
 ## Technology.
@@ -30,7 +32,7 @@
 ### Open source challange:
 
   * Add ProgressHub when user hit the Download button so they can see what's going on in the background on the app.
-  * User any webframework of your choice. javascrip, Jquery
+  * Use any webframework of your choice. javascrip, Jquery
   
 
 ### Disclaimer .
