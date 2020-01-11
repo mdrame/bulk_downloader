@@ -1,6 +1,7 @@
 from flask import Flask, render_template, redirect, request, url_for
 import requests
 import os 
+
 from pytube import YouTube
 
 
@@ -12,9 +13,6 @@ from pytube import YouTube
 
 
 app = Flask(__name__)
-
-
-
 
 
 
@@ -74,12 +72,6 @@ def pp():
     # display only 
     return render_template('privacypolicy.html') #home page
     
-
-
-
-
-
-
 
 
 

@@ -1,7 +1,12 @@
 #### Builk download is a  reponsive webapp built with flask using python3. It gives user the ultimate power to download up to 5 content from youtube using URLS.
 
 
+### Url Format: 
+
+<img src="/readmeImage/url.png">
+
  ### Home. 
+
 <img src="/readmeImage/home.png">
 
 
