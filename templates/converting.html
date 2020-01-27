@@ -23,7 +23,8 @@
                     {%  if 'www.youtube.com' in urls[i] %} 
                             <h3> {{ urls[i] }}  = > DOWNLOAD SUCESSFUL ✅ </h3>
                     {%  else %}
-                        <h3> {{ urls[i] }}  = >  Not a youtube link pal ❌ </h3>
+                        <!-- Render to errror handling page using flask routing -->
+                        <h3> {{ urls[i] }}  = >  DOWNLOAD FAIL | URL not valid ❌ </h3>
                     {%  endif %} 
                         
                 {% endfor %}

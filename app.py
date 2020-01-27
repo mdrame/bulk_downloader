@@ -45,16 +45,17 @@ def converting_url():
         for i in range(0, len(urls)):
 
             if 'www.youtube.com' in urls[i]:
-            # print(f"these are the {i}")
-
                                                                         # save to destination
                 ytd = YouTube(f'{urls[i]}').streams.first().download('/Users/mohammeddrame/Downloads')
                 # downloading given url
-        
-    else:
-        print(" Method is POST ")
+
+                # return render_template('converting.html',  urls=urls)
+  
+
 
     return render_template('converting.html',  urls=urls)
+
+    
 
 
 # about route 
